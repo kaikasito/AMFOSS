@@ -1,2 +1,0 @@
-# yes-amfoss
-# yes-amfoss
