@@ -1,2 +1,2 @@
-# AMFOSS
-A
+# yes-amfoss
+# yes-amfoss
