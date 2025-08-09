@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Draw a Perfect Circle</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Draw a Perfect Circle</h1>
+  <p>Try to draw a loop that is as circular as possible. Keep the red dot inside!</p>
+
+  <canvas id="board" width="700" height="500"></canvas>
+  <div id="score">Score: —</div>
+  <div id="best">Best: —</div>
+
+  <button id="clearBtn">Clear</button>
+  <button id="evaluateBtn">Evaluate</button>
+
+  <label>
+    <input type="checkbox" id="soundToggle" checked />
+    Sound while drawing
+  </label>
+
+  <audio id="drawSound" src="sounds/draw.wav" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+body {
+  background: #f5f5f5;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+canvas {
+  background: white;
+  border: 1px solid #ccc;
+  cursor: crosshair;
+}
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+}
